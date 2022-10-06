@@ -4,5 +4,5 @@ from . import views
 
 urlpatterns = [
     path('docker/', views.Docker, name="Docker"),
-    path('docker/build', views.DockerBuild, name="Docker Build"),
+    path('docker/build/', views.DockerBuild, name="Docker Build"),
 ]
